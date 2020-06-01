@@ -550,7 +550,7 @@ namespace VSCodeEditor
             builder.Append(@"    <DebugSymbols>true</DebugSymbols>").Append(k_WindowsNewline);
             builder.Append(@"    <DebugType>full</DebugType>").Append(k_WindowsNewline);
             builder.Append(@"    <Optimize>false</Optimize>").Append(k_WindowsNewline);
-            builder.Append(@"    <OutputPath>Temp\bin\Debug\</OutputPath>").Append(k_WindowsNewline);
+            builder.Append(@"    <OutputPath>Library\ScriptAssemblies\</OutputPath>").Append(k_WindowsNewline);
             builder.Append(@"    <DefineConstants>").Append(defines).Append("</DefineConstants>").Append(k_WindowsNewline);
             builder.Append(@"    <ErrorReport>prompt</ErrorReport>").Append(k_WindowsNewline);
             builder.Append(@"    <WarningLevel>4</WarningLevel>").Append(k_WindowsNewline);
